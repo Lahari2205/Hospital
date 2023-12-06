@@ -1,0 +1,217 @@
+ /* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+} 
+
+header {
+    background-image: url('medical8.jpg'); /* Replace 'hospital-image.jpg' with your actual image path */
+  /*  background-size: cover;
+    color: rgb(26, 26, 10);
+    padding: 280px;
+    text-align: center;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#hospital-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hospital-info h1 {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 18px;
+    font-style: italic;
+} */
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    line-height: 1.6;
+}
+
+header {
+    background-image: url('medical8.jpg'); /* Replace 'hospital-image.jpg' with your actual image path */
+    background-size: cover;
+    color: rgb(26, 26, 10);
+    padding: 280px;
+    text-align: center;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#hospital-info h1 {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 18px;
+    font-style: italic;
+}
+
+h1, h2 {
+    color: #2c3e50; /* Dark blue headers */
+}
+
+h2 {
+    border-bottom: 2px solid #3498db; /* Blue border under headers */
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+#about-us, #services, #gallery {
+    background-color: rgb(255, 255, 255); /* White background for sections */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for sections */
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.gallery-container {
+    width: 100%; /* Wider gallery container */
+    max-width: 1200px; /* Maximum width for the gallery container */
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    height: 800px; /* Custom gallery height */
+}
+
+.gallery {
+    display: flex; /* Display images in a row */
+     /* Three times the width of the container */
+    transition: transform 1s ease-in-out;
+}
+
+.gallery img {
+    width: 33.33%;
+    height: 10%; /* Ensure images fill the gallery container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 8px; /* Rounded corners for images */
+    margin-right: 10px; /* Space between images */
+}
+
+.login-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.forgot-password {
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+
+/*#prev, #next {
+    background-color: #3498db; /* Blue buttons */
+    /*border: none;
+    color: #fff; /* White text color */
+    /*font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.6s ease;
+}
+
+#prev:hover, #next:hover {
+    background-color: #2980b9; /* Darker blue on hover 
+}*/
